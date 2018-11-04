@@ -1,0 +1,39 @@
+body {
+  padding-top: 5rem;
+}
+
+
+/* start index page only styles */
+.index {
+  padding: 3rem 1.5rem;
+}
+
+.index img {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+/* end index page only styles */
+
+
+/* start footer styles */
+footer {
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+
+footer .social-icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 8px;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* end footer styles */
