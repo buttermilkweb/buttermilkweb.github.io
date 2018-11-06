@@ -1,8 +1,3 @@
-body {
-  padding-top: 5rem;
-}
-
-
 /* start index page only styles */
 .index {
   padding: 3rem 1.5rem;
@@ -26,7 +21,6 @@ footer {
   font-size: 1.35em;
   font-weight: 300;
 }
-
 
 footer .social-icons {
   height: 30px;
