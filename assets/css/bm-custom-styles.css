@@ -21,6 +21,15 @@ a:hover {
 h1, h2, h3, h4 {
   color: #641b3e; 
 }
+
+.tel {
+  color: #641b3e; 
+}
+
+/* force max width at all viewport widths */
+.container {
+  max-width: 720px !important;
+}
 /* end global styles */
 
 
@@ -80,8 +89,8 @@ img.hero {
 /* start footer styles */
 footer {
   text-align: center;
-  font-size: 1.35em;
   font-weight: 300;
+  color: #641b3e; 
 }
 
 footer .social-icons {
