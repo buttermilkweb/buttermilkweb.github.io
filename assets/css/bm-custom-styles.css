@@ -1,8 +1,41 @@
-/* start nav styles */
+/* start fonts */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* end fonts */
 
+
+/* start global styles */
+body {
+  /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+a {
+  color: #641b3e; 
+}
+a:hover {
+  color: #CC377E;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  color: #641b3e; 
+}
+/* end global styles */
+
+
+/* start nav styles */
 /* center navbar */
 .navbar-expand-sm {
   width: 450px;
+}
+
+a.nav-link {
+  color: #641b3e !important;  
+}
+a.nav-link:hover {
+  color: #CC377E !important;
+  text-decoration: none;
 }
 /* end nav styles */
 
