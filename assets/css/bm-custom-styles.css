@@ -34,6 +34,16 @@ h1, h2, h3, h4, h5 {
 .container {
   max-width: 720px !important;
 }
+
+img.logo {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5em;
+}
+
 /* end global styles */
 
 
@@ -72,22 +82,11 @@ a.nav-link:hover {
 
 
 /* start index page only styles */
-.index {
-  padding: 3rem 1.5rem;
-}
 
-img.logo {
-  width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 2.5em;
-}
+
 
 img.hero {
   width: 100%;
-  max-width: 650px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -96,6 +95,12 @@ img.hero {
 /* end index page only styles */
 
 
+/* start menu page only styles */
+.menu_images {
+  width: 100%;
+}
+
+/* end menu page only styles */
 
 
 
