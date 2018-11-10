@@ -146,6 +146,11 @@ img.hero {
 
 
 /* start menu page only styles */
+h2.menus {
+  margin-bottom: -.25em;
+}
+
+
 .menu_images {
   width: 100%;
   margin-top: 1em;
