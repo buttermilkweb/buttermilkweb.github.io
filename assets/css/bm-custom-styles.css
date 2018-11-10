@@ -120,3 +120,45 @@ footer .social-icons {
   margin-bottom: 20px;
 }
 /* end footer styles */
+
+
+/* start form styles */
+.text_inputs {
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
+
+.text_inputs_small {
+  width: 150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
+
+/* shrink input form fields portrait phones */
+@media (max-width: 400px) {
+.text_inputs {
+  width: 250px;
+}
+}
+
+.form_submit_button {
+    background-color: #fff; 
+    border: 1px;
+    border-style: solid;
+    border-color: #641b3e;
+    color: #641b3e;
+    padding: .7em 1.7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form_submit_button:hover {
+    color: #9F4F6F;
+    border-color: #9F4F6F;
+}
+
+/* end form styles */
