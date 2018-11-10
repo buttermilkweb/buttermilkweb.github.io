@@ -57,6 +57,10 @@ ul.navbar-nav {
   margin-right: auto;
 }
 
+li.active {
+  font-weight: 600;
+}
+
 /* hamburger menu colors */
 
 .navbar-light .navbar-toggler {
