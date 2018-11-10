@@ -61,6 +61,15 @@ li.active {
   font-weight: 600;
 }
 
+li.active.home-link {
+  font-weight: 400;
+}
+
+li.active a.nav-link:hover {
+  color: #641b3e !important;
+  text-decoration: none;
+}
+
 /* hamburger menu colors */
 
 .navbar-light .navbar-toggler {
