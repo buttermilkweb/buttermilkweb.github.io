@@ -83,7 +83,9 @@ a.nav-link:hover {
 
 /* start index page only styles */
 
-
+p.thanksgiving-banner {
+  text-align: center;
+}
 
 img.hero {
   width: 100%;
