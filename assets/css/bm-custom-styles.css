@@ -1,0 +1,229 @@
+/* start fonts */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,400i,600');
+/* end fonts */
+
+
+/* start global styles */
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  color: #641b3e; 
+}
+a:hover {
+  color: #CC377E;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #641b3e; 
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+h4 {
+  font-size: 1.15em;
+  margin-top: 1.25em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.tel {
+  color: #641b3e; 
+}
+
+.inline-icons {
+  max-width: 25px;
+}
+
+/* force max width at all viewport widths */
+.container {
+  max-width: 720px !important;
+}
+
+img.logo {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 3.5em;
+}
+
+/* end global styles */
+
+
+/* start nav styles */
+/* center navbar expanded */
+ul.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.nav-item{
+  font-size: 1.1em;
+}
+
+li.active {
+  font-weight: 600;
+}
+
+li.active.home-link {
+  font-weight: 400;
+}
+
+li.active a.nav-link:hover {
+  color: #641b3e !important;
+  text-decoration: none;
+}
+
+button.custom-toggler{
+  margin-bottom: 1.5em;
+}
+
+button[aria-expanded="true"] {
+  margin-bottom: 0em;
+}
+
+
+/* hamburger menu colors */
+
+.navbar-light .navbar-toggler {
+  border-color: rgb(100, 27, 62,.8);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(100, 27, 62)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* sets the width of the nav button */
+button.navbar-toggler.custom-toggler {
+  margin-left: auto;
+}
+
+button.navbar-toggler.custom-toggler.collapsed {
+  margin-bottom: 2em !important;
+}
+
+/* nav link colors */
+a.nav-link {
+  color: #641b3e !important;  
+}
+a.nav-link:hover {
+  color: #CC377E !important;
+  text-decoration: none;
+}
+/* end nav styles */
+
+
+/* start index page only styles */
+
+p.thanksgiving-banner {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: -1em;
+}
+
+img.hero {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5em;
+}
+/* end index page only styles */
+
+
+/* start menu page only styles */
+h2.menus {
+  margin-bottom: -.25em;
+}
+
+
+.menu_images {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.menu-toc {
+  font-size: 1.1em;
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: .75em;
+  margin-bottom: 1em;
+}
+
+/* end menu page only styles */
+
+
+
+/* start footer styles */
+footer {
+  text-align: center;
+  color: #641b3e; 
+  margin-top: 4em;
+
+}
+
+footer .social-icons {
+  height: 30px;
+  width: 30px;
+  margin-left: 8px;
+  margin-right: 7px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* end footer styles */
+
+
+/* start form styles */
+.text_inputs {
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0000003d;
+}
+
+.text_inputs_small {
+  width: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:#0000003d;
+}
+
+/* shrink input form fields portrait phones */
+@media (max-width: 400px) {
+.text_inputs {
+  width: 250px;
+}
+}
+
+.form_submit_button {
+    background-color: #fff; 
+    border: 1px;
+    border-style: solid;
+    border-color: #641b3e;
+    color: #641b3e;
+    padding: .7em 1.7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form_submit_button:hover {
+    color: #9F4F6F;
+    border-color: #9F4F6F;
+}
+
+/* end form styles */
