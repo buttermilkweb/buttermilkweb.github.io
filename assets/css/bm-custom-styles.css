@@ -1,5 +1,5 @@
 /* start fonts */
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:300,400,400i,500,600');
 /* end fonts */
 
 
@@ -148,6 +148,13 @@ img.hero {
 /* start menu page only styles */
 h1.menus {
   margin-bottom: -.25em;
+}
+
+p.menu-pdf-link {
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 500;
 }
 
 
