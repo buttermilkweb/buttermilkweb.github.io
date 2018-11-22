@@ -129,14 +129,6 @@ a.nav-link:hover {
 
 /* start index page only styles */
 
-p.thanksgiving-banner {
-  font-weight: 500;
-  font-size: 1.15em;
-  text-align: center;
-  margin-bottom: 1.5em;
-  margin-top: -.5em;
-}
-
 img.hero {
   width: 100%;
   margin-left: auto;
