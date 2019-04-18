@@ -136,6 +136,15 @@ img.hero {
   display: block;
   margin-bottom: 2.5em;
 }
+
+.index_menu_banner {
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+
+
 /* end index page only styles */
 
 
